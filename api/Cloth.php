@@ -15,17 +15,28 @@ class Cloth extends Simpla
     private $version = '1.0.0';
     // Свойства - Классы API
     private $classes = array(
-        'test'      => 'TestController',
+        'controller'    => 'ClothController',
+        'model'         => 'ClothModel',
+        'view'         => 'ClothView',
     );
-
     // Созданные объекты
     private static $objects = array();
-
-//    public $test;
+    //
     public $status ;
+    //
     public $host ;
+    //
     public $documentRoot ;
-    public static $instance;
+    //
+    private  $folderModule      = '/modules/';
+    //
+    private $folderController   = '/controller/' ;
+    //
+    private $folderModel        = '/model/' ;
+    //
+    private $folderView         = '/view/' ;
+    //
+    private $suffix             = '.php';
 
     /**
      *
@@ -39,8 +50,6 @@ class Cloth extends Simpla
      */
     public function __get($name)
     {
-//        echo $name;
-//        exit;
         // Если такой объект уже существует, возвращаем его
         if(isset(self::$objects[$name]))
         {
@@ -56,7 +65,7 @@ class Cloth extends Simpla
         // Определяем имя нужного класса
         $class = $this->classes[$name];
         // Подключаем его
-        include_once($this->documentRoot.'/modules/'.$this->name.'/controller/'.$class.'.php');
+        include_once($this->documentRoot.$this->folderModule.$this->name.$this->folderController.$class.$this->suffix);
         // Сохраняем для будущих обращений к нему
         self::$objects[$name] = new $class();
 

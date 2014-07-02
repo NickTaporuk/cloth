@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-07-01 16:16:17
+<?php /* Smarty version Smarty-3.1.18, created on 2014-07-02 19:44:57
          compiled from "/var/www/simpla/design/default/html/main.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:99812310153b2b4a1640285-47174077%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'eac633ee66d0cde7418f5cc9254b35a16081da03' => 
     array (
       0 => '/var/www/simpla/design/default/html/main.tpl',
-      1 => 1394924656,
+      1 => 1404308249,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_53b2b4a1e03cf6_21949084',
   'variables' => 
   array (
     'page' => 0,
@@ -26,8 +28,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'discounted_products' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_53b2b4a1e03cf6_21949084',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53b2b4a1e03cf6_21949084')) {function content_53b2b4a1e03cf6_21949084($_smarty_tpl) {?>
 

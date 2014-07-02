@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-07-01 16:16:18
+<?php /* Smarty version Smarty-3.1.18, created on 2014-07-02 21:45:35
          compiled from "/var/www/simpla/design/default/html/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3957690153b2b4a2116910-87322558%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bef3d374b3acdd4aa123a650e85f5743ca508445' => 
     array (
       0 => '/var/www/simpla/design/default/html/index.tpl',
-      1 => 1398840864,
+      1 => 1404326729,
       2 => 'file',
     ),
   ),
@@ -22,6 +22,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       'compiled' => '',
     ),
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_53b2b4a28f7e10_17346773',
   'variables' => 
   array (
     'config' => 0,
@@ -50,8 +52,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'post' => 0,
   ),
   'has_nocache_code' => 0,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_53b2b4a28f7e10_17346773',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53b2b4a28f7e10_17346773')) {function content_53b2b4a28f7e10_17346773($_smarty_tpl) {?><!DOCTYPE html>
 
@@ -85,7 +85,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	
 	
 	<script src="js/jquery/jquery.js"  type="text/javascript"></script>
-	
+
 	
 	<?php if ($_SESSION['admin']=='admin') {?>
 	<script src ="js/admintooltip/admintooltip.js" type="text/javascript"></script>
@@ -141,8 +141,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	});
 	</script>
 	
-		
-			
+    <script src="modules/cloth/js/jquery.bpopup.js"  type="text/javascript"></script>
 </head>
 <body>
 

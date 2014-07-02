@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-07-01 17:38:58
+<?php /* Smarty version Smarty-3.1.18, created on 2014-07-02 21:31:30
          compiled from "/var/www/simpla/design/default/html/product.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:98652800953b2c8023e3978-57379595%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6e0bddf57669cf6d88379d9a9fd8101cedfdb31f' => 
     array (
       0 => '/var/www/simpla/design/default/html/product.tpl',
-      1 => 1395345416,
+      1 => 1404325888,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_53b2c803699a19_28889480',
   'variables' => 
   array (
     'product' => 0,
@@ -36,11 +38,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'comment_name' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_53b2c803699a19_28889480',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53b2c803699a19_28889480')) {function content_53b2c803699a19_28889480($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/var/www/simpla/Smarty/libs/plugins/function.math.php';
-?>
+?><div class="popup">
+    <!-- Button that triggers the popup -->
+    <button id="my-button">POP IT UP</button>
+    <!-- Element to pop up -->
+    <div id="element_to_pop_up">Content of popup</div>
+</div>
+
 
 
 <?php $_smarty_tpl->tpl_vars['canonical'] = new Smarty_variable("/products/".((string)$_smarty_tpl->tpl_vars['product']->value->url), null, 1);

@@ -9,16 +9,7 @@
 /*namespace modules\controller;*/
 
 
-class TestController
+class TestController extends Simpla
 {
-/**
- *
- */
 
-
-    
-    public  function test()
-    {
-        return 'its work';
-    }
 } 

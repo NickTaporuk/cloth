@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-07-01 16:13:05
+<?php /* Smarty version Smarty-3.1.18, created on 2014-07-02 17:14:48
          compiled from "simpla/design/html/stats.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:31814781253b2b3e1b74f76-50721793%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b9ef417758ce67ff31a4ef150be047fb771c4c54' => 
     array (
       0 => 'simpla/design/html/stats.tpl',
-      1 => 1397057100,
+      1 => 1404308249,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_53b2b3e1c67ac0_27822337',
   'variables' => 
   array (
     'currency' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_53b2b3e1c67ac0_27822337',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53b2b3e1c67ac0_27822337')) {function content_53b2b3e1c67ac0_27822337($_smarty_tpl) {?><?php $_smarty_tpl->_capture_stack[0][] = array('tabs', null, null); ob_start(); ?>
 		<li class="active"><a href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->url_modifier(array('module'=>'StatsAdmin'),$_smarty_tpl);?>

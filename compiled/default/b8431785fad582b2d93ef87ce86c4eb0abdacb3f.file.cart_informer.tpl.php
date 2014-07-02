@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-07-01 16:16:18
+<?php /* Smarty version Smarty-3.1.18, created on 2014-07-02 19:45:00
          compiled from "/var/www/simpla/design/default/html/cart_informer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:92662855153b2b4a2907cf6-28747019%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b8431785fad582b2d93ef87ce86c4eb0abdacb3f' => 
     array (
       0 => '/var/www/simpla/design/default/html/cart_informer.tpl',
-      1 => 1328292006,
+      1 => 1404308249,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_53b2b4a299e338_54653023',
   'variables' => 
   array (
     'cart' => 0,
     'currency' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_53b2b4a299e338_54653023',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53b2b4a299e338_54653023')) {function content_53b2b4a299e338_54653023($_smarty_tpl) {?>
 

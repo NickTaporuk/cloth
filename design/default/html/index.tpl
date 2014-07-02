@@ -24,7 +24,7 @@
 	
 	{* JQuery *}
 	<script src="js/jquery/jquery.js"  type="text/javascript"></script>
-	
+
 	{* Всплывающие подсказки для администратора *}
 	{if $smarty.session.admin == 'admin'}
 	<script src ="js/admintooltip/admintooltip.js" type="text/javascript"></script>
@@ -78,8 +78,7 @@
 	});
 	</script>
 	{/literal}
-		
-			
+    <script src="modules/cloth/js/jquery.bpopup.js"  type="text/javascript"></script>
 </head>
 <body>
 

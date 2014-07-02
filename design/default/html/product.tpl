@@ -1,3 +1,9 @@
+<div class="popup">
+    <!-- Button that triggers the popup -->
+    <button id="my-button">POP IT UP</button>
+    <!-- Element to pop up -->
+    <div id="element_to_pop_up">Content of popup</div>
+</div>
 {* Страница товара *}
 
 {* Канонический адрес страницы *}
