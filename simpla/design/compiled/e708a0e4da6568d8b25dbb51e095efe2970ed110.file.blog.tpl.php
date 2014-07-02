@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2014-07-01 16:13:23
+<?php /* Smarty version Smarty-3.1.18, created on 2014-07-02 13:35:49
          compiled from "simpla/design/html/blog.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:32813888853b2b3f3be5d93-10720844%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e708a0e4da6568d8b25dbb51e095efe2970ed110' => 
     array (
       0 => 'simpla/design/html/blog.tpl',
-      1 => 1392568228,
+      1 => 1404297348,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_53b2b3f4078b24_24813193',
   'variables' => 
   array (
     'posts' => 0,
@@ -23,10 +25,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'post' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_53b2b3f4078b24_24813193',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_53b2b3f4078b24_24813193')) {function content_53b2b3f4078b24_24813193($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_53b2b3f4078b24_24813193')) {function content_53b2b3f4078b24_24813193($_smarty_tpl) {?>zzzz )
 <?php $_smarty_tpl->_capture_stack[0][] = array('tabs', null, null); ob_start(); ?>
 	<li class="active"><a href="index.php?module=BlogAdmin">Блог</a></li>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);

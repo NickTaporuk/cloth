@@ -20,13 +20,18 @@ class Cloth extends Simpla
 
     // Созданные объекты
     private static $objects = array();
-
-//    public $test;
+    //ответ сервера при загрузке страницы
     public $status ;
+    //наименование сайта
     public $host ;
+    //путь корня папки в которой лежит наш сайт
     public $documentRoot ;
-    public static $instance;
-
+    //создание модульности cms simpla
+    public $modulesDir = '/modules/';
+    //папка где находяться классы для разработки
+    public $controllerDir = '/controller/';
+    //окончание в названии класса
+    private $end = '.php';
     /**
      *
      */
@@ -36,11 +41,10 @@ class Cloth extends Simpla
     }
     /**
      * Магический метод, создает нужный объект API
+     * возмём чтоб не писать своё :)
      */
     public function __get($name)
     {
-//        echo $name;
-//        exit;
         // Если такой объект уже существует, возвращаем его
         if(isset(self::$objects[$name]))
         {
@@ -55,8 +59,8 @@ class Cloth extends Simpla
 
         // Определяем имя нужного класса
         $class = $this->classes[$name];
-        // Подключаем его
-        include_once($this->documentRoot.'/modules/'.$this->name.'/controller/'.$class.'.php');
+        // Подключаем класс из модуля
+        include_once($this->documentRoot.$this->modulesDir.$this->name.$this->controllerDir.$class.$this->end);
         // Сохраняем для будущих обращений к нему
         self::$objects[$name] = new $class();
 
@@ -65,16 +69,19 @@ class Cloth extends Simpla
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getHost()
     {
+    //TODO : доделать чтоб подымало везде
         return (string)$this->host = $_SERVER['HTTP_HOST'];
     }
+
     /**
-     *
+     * @return string
      */
     public function getRoot(){
+        //TODO : доделать чтоб подымало везде
         return (string)$this->documentRoot = $_SERVER['DOCUMENT_ROOT'];
     }
 }

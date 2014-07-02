@@ -9,13 +9,15 @@
 /*namespace modules\controller;*/
 
 
-class TestController
+class TestController extends Simpla
 {
 /**
  *
  */
     public  function test()
     {
-        return 'its work';
+       $this->db->query('SELECT count(*) as count FROM __blog');
+        var_dump($this->db->results());
+//        return 'its work';
     }
 } 

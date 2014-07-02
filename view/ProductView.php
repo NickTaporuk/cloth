@@ -21,6 +21,7 @@ class ProductView extends View
 	{
         print('product ::<pre>');
         var_dump($this->cloth->test->test());
+//        var_dump($this->cart->get_cart()->purchases[0]->product->images);
         print('</pre>');
 		$product_url = $this->request->get('product_url', 'string');
 		
