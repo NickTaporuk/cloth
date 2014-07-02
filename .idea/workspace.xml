@@ -129,9 +129,9 @@
       <file leaf-file-name="TestController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/cloth/controller/TestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="3" selection-start="162" selection-end="162" vertical-scroll-proportion="0.20431328" vertical-offset="0" max-vertical-offset="881">
+            <state line="18" column="4" selection-start="169" selection-end="169" vertical-scroll-proportion="0.26560727" vertical-offset="0" max-vertical-offset="881">
               <folding>
-                <marker date="1404309967044" expanded="true" signature="184:220" placeholder="SELECT count..." />
+                <marker date="1404310251952" expanded="true" signature="191:227" placeholder="SELECT count..." />
               </folding>
             </state>
           </provider>
@@ -630,9 +630,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/cloth/controller/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="162" selection-end="162" vertical-scroll-proportion="0.20431328" vertical-offset="0" max-vertical-offset="881">
+        <state line="18" column="4" selection-start="169" selection-end="169" vertical-scroll-proportion="0.26560727" vertical-offset="0" max-vertical-offset="881">
           <folding>
-            <marker date="1404309967044" expanded="true" signature="184:220" placeholder="SELECT count..." />
+            <marker date="1404310251952" expanded="true" signature="191:227" placeholder="SELECT count..." />
           </folding>
         </state>
       </provider>
