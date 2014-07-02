@@ -129,9 +129,9 @@
       <file leaf-file-name="TestController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/cloth/controller/TestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="27" selection-start="205" selection-end="205" vertical-scroll-proportion="0.2247446" vertical-offset="0" max-vertical-offset="881">
+            <state line="17" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="0.24517594" vertical-offset="0" max-vertical-offset="881">
               <folding>
-                <marker date="1404306608383" expanded="true" signature="237:273" placeholder="SELECT count..." />
+                <marker date="1404309652280" expanded="true" signature="190:226" placeholder="SELECT count..." />
               </folding>
             </state>
           </provider>
@@ -528,11 +528,6 @@
         <state line="29" column="35" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="3654" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/cloth/css/cloth.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="932" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simpla/BlogAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="45" selection-start="1589" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="1386" />
@@ -635,9 +630,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/cloth/controller/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="205" selection-end="205" vertical-scroll-proportion="0.2247446" vertical-offset="0" max-vertical-offset="881">
+        <state line="17" column="4" selection-start="168" selection-end="168" vertical-scroll-proportion="0.24517594" vertical-offset="0" max-vertical-offset="881">
           <folding>
-            <marker date="1404306608383" expanded="true" signature="237:273" placeholder="SELECT count..." />
+            <marker date="1404309652280" expanded="true" signature="190:226" placeholder="SELECT count..." />
           </folding>
         </state>
       </provider>
