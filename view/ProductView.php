@@ -19,9 +19,9 @@ class ProductView extends View
 
 	function fetch()
 	{
-        print('product ::<pre>');
-        var_dump($this->cloth->controller->test());
-        print('</pre>');
+//        print('product ::<pre>');
+//        var_dump($this->cloth->controller->test());
+//        print('</pre>');
 		$product_url = $this->request->get('product_url', 'string');
 		
 		if(empty($product_url))

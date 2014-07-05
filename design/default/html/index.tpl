@@ -21,7 +21,9 @@
 	<link href="design/{$settings->theme|escape}/css/style.css" rel="stylesheet" type="text/css" media="screen"/>
 	<link href="design/{$settings->theme|escape}/images/favicon.ico" rel="icon"          type="image/x-icon"/>
 	<link href="design/{$settings->theme|escape}/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-	
+	{*Стили модлей nictaporuk@yandex.ru*}
+    <link href="modules/cloth/css/cloth.css" type="text/css" rel="stylesheet"/>
+
 	{* JQuery *}
 	<script src="js/jquery/jquery.js"  type="text/javascript"></script>
 
@@ -78,7 +80,6 @@
 	});
 	</script>
 	{/literal}
-    <script src="modules/cloth/js/jquery.bpopup.js"  type="text/javascript"></script>
 </head>
 <body>
 
@@ -259,7 +260,14 @@
 	<div id="footer">
 		<a href="http://simplacms.ru">Скрипт интернет-магазина Simpla</a>
 	</div>
-	<!-- Футер (The End)--> 
-	
+	<!-- Футер (The End)-->
+    {*подкидываем наши яваскрипт для модуля cloth*}
+    <script src ="modules/cloth/js/cloth/cloth_init.js" type="text/javascript"></script>
+
+    {*конец яваскрипт для модуля cloth*}
+
+    {literal}
+
+    {/literal}
 </body>
 </html>

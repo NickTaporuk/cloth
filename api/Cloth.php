@@ -15,9 +15,9 @@ class Cloth extends Simpla
     private $version = '1.0.0';
     // Свойства - Классы API
     private $classes = array(
-        'controller'    => 'ClothController',
-        'model'         => 'ClothModel',
-        'view'         => 'ClothView',
+        'c'     => 'ClothController',
+        'm'     => 'ClothModel',
+        'v'     => 'ClothView',
     );
     // Созданные объекты
     private static $objects = array();
@@ -74,14 +74,15 @@ class Cloth extends Simpla
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getHost()
     {
         return (string)$this->host = $_SERVER['HTTP_HOST'];
     }
+
     /**
-     *
+     * @return string
      */
     public function getRoot(){
         return (string)$this->documentRoot = $_SERVER['DOCUMENT_ROOT'];

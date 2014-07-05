@@ -1,0 +1,212 @@
+.popup
+{
+    height: 598px;
+    width: 1720px;
+    z-index: 1000000;
+    display: block;
+    top: 40px;
+    left: 100px;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border: 10px;
+    -moz-border-radius: 10px;
+    padding-left: 10px;
+    display: none;
+}
+.textile-list-title{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.close-block
+{
+    float: right;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    width: 70px;
+    background: url(/modules/cloth/img/close-popupw.gif) 100% 0 no-repeat;
+    margin: 0 10px 10px 0;
+    padding-right: 24px;
+    cursor: pointer;
+}
+.disclamor {
+    color: #D62326;
+    line-height: 130%;
+    margin-left: 10px;
+}
+/**/
+#textile-type-switcher{
+    border: 2px solid #D8D8D8;
+    float: left;
+    width: 1380px;
+    border-radius: 7px;
+    -webkit-border: 7px;
+    -moz-border-radius: 7px;
+    margin: 5px;
+}
+/**/
+.textile-pic-preview{
+    background: #fff;
+    padding: 2px;
+    border: 2px solid #D8D8D8;
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+    -webkit-border: 7px;
+    -moz-border-radius: 7px;
+    float: right;
+    margin: 5px;
+}
+#type-switcher a.active {
+    border: none;
+    text-decoration: none;
+    color: #D62326;
+    font-size: 18px;
+    float: left;
+    margin: 7px 10px;
+}
+#textile-type-switcher a {
+    font-size: 18px;
+    border: none;
+    float: left;
+    margin: 7px 10px;
+    color: #3073D9;
+}
+#textile-group-inner-switcher{
+    border: 2px solid #D8D8D8;
+    padding: 10px;
+    float: left;
+    width: 352px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 7px;
+    -webkit-border: 7px;
+    -moz-border-radius: 7px;
+    margin: 5px;
+}
+#textile-group-inner-switcher-help{
+    font-size: 11px;
+    margin-bottom: 5px;
+    color: #D62326;
+    text-align: center;
+    cursor: default;
+    line-height: 1;
+}
+.textile-group
+{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 9px;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#textile-group-inner-switcher a.active .group-name
+{
+    background: none repeat scroll 0 0 #E6E6E6;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.6) inset;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #FFFFFF;
+    height: 28px;
+    width: 28px;
+    font-size: 19px;
+    line-height: 28px;
+}
+#textile-group-inner-switcher .group-name
+{
+    height: 28px;
+    width: 28px;
+    font-size: 19px;
+    line-height: 28px;
+    background: linear-gradient(#fff,#eee) repeat scroll 0 0 rgba(0,0,0,0);
+    background-image: -o-linear-gradient(#fff,#eee);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    color: #666;
+    border-radius: 5px;
+    -webkit-border: 5px;
+    -moz-border-radius: 5px;
+}
+#textile-group-inner-switcher .group-name:hover{
+    background: linear-gradient(#eee,#fff) repeat scroll 0 0 rgba(0,0,0,0);
+    background-image: -o-linear-gradient(#fff,#eee);
+}
+.group-price{
+    font-size: 10px;
+    color: #D62326;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: OpenSans;
+    font-size: 9px;
+}
+#textile-list-content {
+    border: 2px solid #D8D8D8;
+    overflow-y: auto;
+    border-radius: 7px;
+    -webkit-border: 7px;
+    -moz-border-radius: 7px;
+    clear: left;
+    margin: 5px;
+}
+.textile-category-title {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+}
+.textile-category .help-tips {
+    background: url(/modules/cloth/img/help-tip.gif) 0 1px no-repeat;
+    height: 14px;
+    width: 13px;
+    display: inline-block;
+}
+#textile-list-content .textile {
+    position: relative;
+    border: 1px solid #ccc;
+    margin: 5px;
+    float: left;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 5px;
+    -webkit-border: 5px;
+    -moz-border-radius: 5px;
+}
+#textile-pic-preview {
+    background: #fff;
+    padding: 2px;
+    border: 2px solid #D8D8D8;
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+    -webkit-border: 7px;
+    -moz-border-radius: 7px;
+    float: right;
+    margin: 5px;
+}
+.select-textile-button {
+    position: absolute;
+    top: 290px;
+    right: 20px;
+    background: #FFf;
+    padding: 10px;
+    text-align: center;
+}
+.select-textile-button .help-text {
+    font-size: 12px;
+    color: #D62326;
+    text-align: center;
+}
+#select-textile-block {
+    font-size: 18px;
+}
