@@ -12,9 +12,5 @@ class ClothController extends Simpla
      *
      */
     public  function test()
-    {
-        $this->db->query("SELECT * FROM __cloth");
-
-        return $this->db->results();
-    }
+    {}
 } 

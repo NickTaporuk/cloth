@@ -44,12 +44,14 @@ class Cloth extends Simpla
     public function __construct()
     {
          $this->getRoot();
+//        echo $this->getRoot();
     }
     /**
      * Магический метод, создает нужный объект API
      */
     public function __get($name)
     {
+//        echo $name;exit;
         // Если такой объект уже существует, возвращаем его
         if(isset(self::$objects[$name]))
         {
@@ -64,8 +66,24 @@ class Cloth extends Simpla
 
         // Определяем имя нужного класса
         $class = $this->classes[$name];
+
+        //
+        switch($name){
+            case $name=='c':
+                include_once($this->documentRoot.$this->folderModule.$this->name.$this->folderController.$class.$this->suffix);
+                break;
+            case $name=='m':
+                include_once($this->documentRoot.$this->folderModule.$this->name.$this->folderModel.$class.$this->suffix);
+                break;
+            case $name=='v':
+//                echo($this->documentRoot.$this->folderModule.$this->name.$this->folderView.$class.$this->suffix);
+//                exit;
+                include_once($this->documentRoot.$this->folderModule.$this->name.$this->folderView.$class.$this->suffix);
+                break;
+
+        }
         // Подключаем его
-        include_once($this->documentRoot.$this->folderModule.$this->name.$this->folderController.$class.$this->suffix);
+//        include_once($this->documentRoot.$this->folderModule.$this->name.$this->folderController.$class.$this->suffix);
         // Сохраняем для будущих обращений к нему
         self::$objects[$name] = new $class();
 

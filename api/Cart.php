@@ -164,7 +164,21 @@ class Cart extends Simpla
 	*/
 	public function delete_item($variant_id)
 	{
-		unset($_SESSION['shopping_cart'][$variant_id]); 
+        unset($_SESSION['shopping_cart'][$variant_id]);
+        //TODO : доделать удаление товара из корзины
+        //удаляем из сессии данные по id материала модуля cloth(ткани)
+        if(isset($_SESSION['cloth']) and !empty($_SESSION['cloth'])){
+            foreach($_SESSION['cloth'] as $k=> $delClothSession){
+                foreach($delClothSession as $key=>$val){
+                    if($key===$variant_id){
+                        //unset($delClothSession[$key]);
+                        unset($_SESSION['cloth'][$k]);
+                    }
+                }
+            }
+        }
+//        unset($_SESSION['cloth']);
+
 	}
 	
 	/*
@@ -176,6 +190,8 @@ class Cart extends Simpla
 	{
 		unset($_SESSION['shopping_cart']);
 		unset($_SESSION['coupon_code']);
+        //скидываем данные модуля cloth(ткани)
+		unset($_SESSION['cloth']);
 	}
  
 	/*

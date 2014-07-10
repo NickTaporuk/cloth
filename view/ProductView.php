@@ -19,9 +19,30 @@ class ProductView extends View
 
 	function fetch()
 	{
-//        print('product ::<pre>');
-//        var_dump($this->cloth->controller->test());
+//отладка
+        print('product ::<pre>');
+//        var_dump($this->cloth->m->getAllTypeMaterial());
+//        var_dump($this->cloth->m->getAllPriceBind());
+//        var_dump($this->cloth->m->getAllCloth());
+//        var_dump($this->cloth->m->getAllCompany());
+//        var_dump($this->cloth->m->getAllTKM());
+//        var_dump($this->cloth->m->getMP());
 //        print('</pre>');
+        //взять название компаний и забрать
+//        print('<pre>');
+//        var_dump($this->cloth);
+        print_r($_SESSION);
+        print_r($_GET);
+        print_r($_POST);
+        print('</pre>');
+
+        $model['getAllTypeMaterial']    = $this->cloth->m->getAllTypeMaterial();
+        $model['getAllPriceBind']       = $this->cloth->m->getAllPriceBind();
+        $model['getAllTKM']             = $this->cloth->m->getAllTKM();
+        $model['getAllCompany']         = $this->cloth->m->getAllCompany();
+//        var_dump($this->cloth->v);
+//        var_dump($model);
+        $this->design->assign('cloth', $this->cloth->v->decoratorPopup($model));
 		$product_url = $this->request->get('product_url', 'string');
 		
 		if(empty($product_url))

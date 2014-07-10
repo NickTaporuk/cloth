@@ -1,3 +1,4 @@
+alert(window.location.href);
 // Аяксовая корзина
 $('form.cart').live('submit', function(e) {
 	e.preventDefault();

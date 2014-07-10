@@ -1,58 +1,6 @@
-<div class="popup" >
-    <!-- -->
-    <div class="close-block" href="#">ЗАКРЫТЬ</div>
-    <div class="textile-list-title">Выбор основной ткани</div>
-    <div class="disclamor">Внимание! Отображение тонов изображения может отличаться в зависимости от цветопередачи вашего монитора!</div>
-    <!-- Button that triggers the popup -->
-    <div id="textile-list">
-        <div id="textile-pic-preview">
-
-        </div>
-        <div id="textile-type-switcher" style="width: 1380px;">
-            <a href="#" id="textile-type-0" class="textile-type active" onclick="setTextileType(0); return false;">Все типы</a>
-            <span class="textile-type-wrapper">
-                <a href="#" id="textile-type-1614" class="textile-type" onclick="setTextileType(1614); return false;">Жаккардовый Шенилл</a>
-                <span title="" class="help-tips" bt-xtitle="Жаккардовый шенилл – ткань с мягкой ворсистой поверхностью, которая получается благодаря переплетению гладких и ворсистых нитей. Шенилловая пряжа - это мягкая и пушистая пряжа. Собственно говоря, именно эта ее необычная «пушистость» и сделала ткань столь популярной в современном мебельном мире."></span></span>
-                <span class="textile-type-wrapper"><a href="#" id="textile-type-1613" class="textile-type" onclick="setTextileType(1613); return false;">Флок на флоке</a>
-                <span title="" class="help-tips" bt-xtitle="Флок на флоке — это ткань имеющая многослойное покрытие. Это мягкая, напоминающая бархат ткань, с мельчайшим ворсом. На тканевую основу напыляются мельчайшие частицы волокна, которые создают красивые узоры и орнаменты. Имеет высокую степень непромокаемости и устойчивость к загрязнениям."></span></span>
-            <span class="textile-type-wrapper"><a href="#" id="textile-type-223" class="textile-type" onclick="setTextileType(223); return false;">Гобелен</a>
-                <span title="" class="help-tips" bt-xtitle="Гобелен – используемая в обивке мебели уже несколько веков ткань, до сих пор пользуется особой популярностью. Довольно дешевая и практичная, состоящая из 80 -100% хлопка она износостойка и удобна для очистки от любого вида загрязнений. Красивый тканый узор гобеленов смотрится, как настоящая объемная картина, напоминающая восточный ковер."></span></span><span class="textile-type-wrapper"><a href="#" id="textile-type-213" class="textile-type" onclick="setTextileType(213); return false;">Мех</a><span title="" class="help-tips" bt-xtitle="Мебельный мех - расцветкой и ворсом может имитировать шкуры разных животных. Меховой диван вносит экзотику и непередаваемый шарм в ваш интерьер. И хотя это крайне капризный материал в отношении ухода, его комфортность и шик берут вверх."></span></span><span class="textile-type-wrapper"><a href="#" id="textile-type-39" class="textile-type" onclick="setTextileType(39); return false;">Микро велюр</a><span title="" class="help-tips" bt-xtitle="Велюр - это тяжелая ворсовая ткань, которая отличается от бархата более длинным ворсом. Настоящий, качественный велюр- это красиво и дорого. Это стиль и показатель достатка."></span></span><span class="textile-type-wrapper"><a href="#" id="textile-type-38" class="textile-type" onclick="setTextileType(38); return false;">Флок</a><span title="" class="help-tips" bt-xtitle="Флок - это мягкая, напоминающая бархат ткань, с мельчайшим ворсом. На тканевую основу напыляются мельчайшие частицы волокна, которые создают красивые узоры и орнаменты. Имеет высокую степень непромокаемости и устойчивость к загрязнениям."></span></span><span class="textile-type-wrapper"><a href="#" id="textile-type-37" class="textile-type" onclick="setTextileType(37); return false;">Шенилл</a><span title="" class="help-tips" bt-xtitle="Шенилл – одна из самых распространенных обивочных тканей. Изготовленная из скрученных гладких и пушистых шенилловых нитей, она мягкая с эффектом ворсистой поверхности и практически нерастяжима. Ткань отличается высокой прочностью."></span></span><span class="textile-type-wrapper"><a href="#" id="textile-type-36" class="textile-type" onclick="setTextileType(36); return false;">Рогожка</a><span title="" class="help-tips" bt-xtitle="Рогожка - это льняная, шерстяная, ХБ, шелковая ткань с редкими полотняными переплетениями. Нити в ткани переплетаются парами и на поверхности появляется выпуклый рисунок. Ткань рогожка упруга, она почти не мнется, прекрасно держит форму и за ней легко ухаживать."></span></span><span class="textile-type-wrapper"><a href="#" id="textile-type-35" class="textile-type" onclick="setTextileType(35); return false;">Искуственная Кожа</a><span title="" class="help-tips" bt-xtitle="Искуственная Кожа – теперь благодаря новым технологиям она дышит и приспосабливается к температурным изменениям, что позволяет ей быть комфортной в любое время года.Искуственная Кожа – вневременной материал, со временем она становится лишь совершенней."></span></span><span class="textile-type-wrapper"><a href="#" id="textile-type-34" class="textile-type" onclick="setTextileType(34); return false;">Жаккард</a><span title="" class="help-tips" bt-xtitle="Жаккард – ткань с красивым рельефным рисунком. Своей красотой и текстурой напоминает дорогие ткани атлас или парчу. По качеству относится к типу элитных тканей и сама по себе способна создать красивейший декор в помещении. При чистке такого типа тканей следует соблюдать осторожность и не применять моющие средства, содержащие спирт или растворители."></span></span><span class="textile-type-wrapper"><a href="#" id="textile-type-33" class="textile-type" onclick="setTextileType(33); return false;">Велюр  </a><span title="" class="help-tips" bt-xtitle="Велюр - это тяжелая ворсовая ткань, которая отличается от бархата более длинным ворсом. Настоящий, качественный велюр- это красиво и дорого. Это стиль и показатель достатка."></span></span><div style="clear:both;"></div></div><div id="textile-group-inner-switcher"><div id="textile-group-inner-switcher-help">Цена изделия расчитывается по большей группе тканей.</div><a id="textile-group-inner-1" class="textile-group active" href="#" onclick="showTextileGroup(1); return false;"><div class="group-name">1</div><div class="group-price">13000р</div></a><a id="textile-group-inner-2" class="textile-group" href="#" onclick="showTextileGroup(2); return false;"><div class="group-name">2</div><div class="group-price">14000р</div></a><a id="textile-group-inner-3" class="textile-group" href="#" onclick="showTextileGroup(3); return false;"><div class="group-name">3</div><div class="group-price">15870р</div></a><a id="textile-group-inner-4" class="textile-group" href="#" onclick="showTextileGroup(4); return false;"><div class="group-name">4</div><div class="group-price">17080р</div></a><a id="textile-group-inner-5" class="textile-group" href="#" onclick="showTextileGroup(5); return false;"><div class="group-name">5</div><div class="group-price">18260р</div></a><a id="textile-group-inner-6" class="textile-group" href="#" onclick="showTextileGroup(6); return false;"><div class="group-name">6</div><div class="group-price">19490р</div></a><a id="textile-group-inner-7" class="textile-group" href="#" onclick="showTextileGroup(7); return false;"><div class="group-name">7</div><div class="group-price">20650р</div></a><div style="clear:both;"></div></div><div id="textile-list-content" style="height: 348px;"><div class="textile-category"><div class="textile-category-title">Мега Босс (Шенилл<span title="" class="help-tips" bt-xtitle="Шенилл – одна из самых распространенных обивочных тканей. Изготовленная из скрученных гладких и пушистых шенилловых нитей, она мягкая с эффектом ворсистой поверхности и практически нерастяжима. Ткань отличается высокой прочностью."></span>)</div><a href="#" class="textile-preview" onclick="setTextile('Мега Босс бордо',18); return false;"><div class="textile"><div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/MegaBossbordo.jpg" alt="Мега Босс бордо" title="Мега Босс бордо" class="taxonomy-image-term-18 taxonomy-image-vid-2" width="50" height="50"></div></div></a>
-                <a href="#" class="textile-preview" onclick="setTextile('Мега Босс бордо комп.',19); return false;"><div class="textile"><div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/MegaBossbordocom.jpg" alt="Мега Босс бордо комп." title="Мега Босс бордо комп." class="taxonomy-image-term-19 taxonomy-image-vid-2" width="50" height="50"></div></div></a>
-                <a href="#" class="textile-preview" onclick="setTextile('Мега Босс голд',127); return false;">
-                    <div class="textile"><div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/megabos-gold.jpg" alt="Мега Босс голд" title="Мега Босс голд" class="taxonomy-image-term-127 taxonomy-image-vid-2" width="50" height="50"></div><div class="popular_textile"></div></div></a>
-                <a href="#" class="textile-preview" onclick="setTextile('Мега Босс голд комп.',128); return false;">
-                    <div class="textile"><div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/megabos-gold-komp.jpg" alt="Мега Босс голд комп." title="Мега Босс голд комп." class="taxonomy-image-term-128 taxonomy-image-vid-2" width="50" height="50"></div><div class="popular_textile"></div></div></a>
-                <a href="#" class="textile-preview" onclick="setTextile('Мега Босс голубой',129); return false;"><div class="textile">
-                        <div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/mega_boss_goluboy.jpg" alt="Мега Босс голубой" title="Мега Босс голубой" class="taxonomy-image-term-129 taxonomy-image-vid-2" width="50" height="50"></div></div></a>
-                <a href="#" class="textile-preview" onclick="setTextile('Мега Босс голубой комп.',130); return false;"><div class="textile">
-                        <div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/mega_boss_goluboy_com.jpg" alt="Мега Босс голубой комп." title="Мега Босс голубой комп." class="taxonomy-image-term-130 taxonomy-image-vid-2" width="50" height="50"></div><div class="popular_textile"></div></div>
-                </a><a href="#" class="textile-preview" onclick="setTextile('Мега Босс зеленый',131); return false;"><div class="textile">
-                        <div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/mega_boss_green.jpg" alt="Мега Босс зеленый" title="Мега Босс зеленый" class="taxonomy-image-term-131 taxonomy-image-vid-2" width="50" height="50"></div></div></a><a href="#" class="textile-preview" onclick="setTextile('Мега Босс зеленый комп.',132); return false;"><div class="textile">
-                        <div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/mega_boss_green_com.jpg" alt="Мега Босс зеленый комп." title="Мега Босс зеленый комп." class="taxonomy-image-term-132 taxonomy-image-vid-2" width="50" height="50"></div></div></a>
-                <a href="#" class="textile-preview" onclick="setTextile('Мега Босс кофе',125); return false;"><div class="textile">
-                        <div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/mega_boss_cofe.jpg" alt="Мега Босс кофе" title="Мега Босс кофе" class="taxonomy-image-term-125 taxonomy-image-vid-2" width="50" height="50"></div></div></a><a href="#" class="textile-preview" onclick="setTextile('Мега Босс кофе комп.',126); return false;"><div class="textile">
-                        <div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/mega_boss_cofe_com.jpg" alt="Мега Босс кофе комп." title="Мега Босс кофе комп." class="taxonomy-image-term-126 taxonomy-image-vid-2" width="50" height="50"></div></div></a>
-                <a href="#" class="textile-preview" onclick="setTextile('Мегабос синий',1860); return false;">
-                    <div class="textile">
-                        <div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/megabos-siniy.jpg" alt="Мегабос синий" title="Мегабос синий" class="taxonomy-image-term-1860 taxonomy-image-vid-2" width="50" height="50"></div></div></a>
-                <a href="#" class="textile-preview" onclick="setTextile('Мегабос синий комп',1861); return false;">
-                    <div class="textile">
-                        <div class="textile-pic"><img src="http://www.deshevayamebel.ru/sites/default/files/imagecache/textile_thumb/category_pictures/megabos-siniy-komp.jpg" alt="Мегабос синий комп" title="Мегабос синий комп" class="taxonomy-image-term-1861 taxonomy-image-vid-2" width="50" height="50"></div>
-                        <div class="popular_textile"></div></div></a>
-                <div style="clear:left;"></div></div>
-            <div style="clear:both;">
-
-                </div>
-        </div>
-        <div style="clear:both;">
-
-                </div>
-    </div>
-    <div class="select-textile-button">
-        <div class="help-text">чтобы заказать модель в данной ткане нажмите</div>
-        <a id="select-textile-block" href="#">выбрать основную ткань</a>
-    </div>
-</div>
+{*выводим наше всплывающее меню*}
+{$cloth}
+{*конец всплывающее меню*}
 
 {* Страница товара *}
 
@@ -109,7 +57,22 @@
 			{/foreach}
 			</table>
 			<input type="submit" class="button" value="в корзину" data-result-text="добавлено"/>
-            <input type="button" value="Открыть" class="popup-open"/>
+          {* кнопки тканей*}
+        <div class="calback-btn">
+            <div id="primary-textile-selector">
+                <a href="#"  class="help-tips-2 beautytips-module-processed beautytips-processed" title="" bt-xtitle="">
+                    <div class="help-text">нажмите чтобы выбрать</div>
+                    <div class="textile-link-label">Основная ткань</div></a>
+            </div>
+
+                <div id="secondary-textile-selector">
+                    <a href="#" class="help-tips-2 beautytips-module-processed beautytips-processed" title="" bt-xtitle="">
+                        <div class="help-text">нажмите чтобы выбрать</div>
+                        <div class="textile-link-label">Ткань компаньон</div>
+                    </a>
+                </div>
+        </div>
+            {**}
 		</form>
 		<!-- Выбор варианта товара (The End) -->
 		{else}
@@ -282,10 +245,10 @@
 
 <script>
 $(function() {
-	// Раскраска строк характеристик
+	Раскраска строк характеристик
 	$(".features li:even").addClass('even');
 
-	// Зум картинок
+	Зум картинок
 	$("a.zoom").fancybox({
 		prevEffect	: 'fade',
 		nextEffect	: 'fade'});

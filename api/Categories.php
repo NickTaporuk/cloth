@@ -253,6 +253,6 @@ class Categories extends Simpla
 		unset($ids);
 
 		$this->categories_tree = $tree->subcategories;
-		$this->all_categories = $pointers;	
+		$this->all_categories = $pointers;
 	}
 }

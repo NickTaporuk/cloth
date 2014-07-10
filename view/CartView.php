@@ -165,7 +165,8 @@ class CartView extends View
 	// Основная функция
 	//////////////////////////////////////////
 	function fetch()
-	{  
+	{
+        var_dump($_SESSION);
 		// Способы доставки
 		$deliveries = $this->delivery->get_deliveries(array('enabled'=>1));
 		$this->design->assign('deliveries', $deliveries);
@@ -173,7 +174,7 @@ class CartView extends View
 		// Данные пользователя
 		if($this->user)
 		{
-			$last_order = $this->orders->get_orders(array('user_id'=>$this->user->id, 'limit'=>1));
+                $last_order = $this->orders->get_orders(array('user_id'=>$this->user->id, 'limit'=>1));
 			$last_order = reset($last_order);
 			if($last_order)
 			{
