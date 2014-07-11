@@ -1,5 +1,26 @@
 {* Шаблон корзины *}
-
+{*{if $cloth}
+    {foreach $cloth as $k=>$next}
+        {foreach $next as $key=>$val}
+            {$key}
+        {/foreach}
+    {/foreach}
+    *}{*{$cloth[0][12]['idi_primary']}*}{*
+{/if}*}
+{*{if $cart}
+    *}{*{foreach $cart->purchases as $k=>$next}*}{*
+    {foreach $cart->purchase->variant as $k=>$next}
+        *}{*{$k}{$next}*}{*
+        *}{*{$k}*}{*
+        *}{*{foreach $next->product as $key=>$val}*}{*
+            *}{*{$key}{$val}*}{*
+            *}{*{foreach $val as $ke=>$v}*}{*
+                *}{*{$ke}*}{*
+            *}{*{/foreach}*}{*
+        *}{*{/foreach}*}{*
+    {/foreach}
+    *}{*{$cloth[0][12]['idi_primary']}*}{*
+{/if}*}
 {$meta_title = "Корзина" scope=parent}
 
 <h1>
@@ -14,6 +35,7 @@
 <table id="purchases">
 
 {foreach from=$cart->purchases item=purchase}
+    {$purchase->variant->id}
 <tr>
 	{* Изображение товара *}
 	<td class="image">
@@ -28,7 +50,22 @@
 		<a href="products/{$purchase->product->url}">{$purchase->product->name|escape}</a>
 		{$purchase->variant->name|escape}			
 	</td>
-
+{*выбранные ткани*}
+    <td>
+        {if $cloth}
+            {foreach $cloth as $k=>$next}
+                {foreach $next as $key=>$val}
+                    {if $key==$purchase->variant->id}
+                        {$val.idi_primary}
+                        {$val.idi_secondary}
+                        <img src="{$val.src_primary}" alt=""/>
+                        <img src="{$val.src_secondary}" alt=""/>
+                    {/if}
+                {/foreach}
+            {/foreach}
+        {/if}
+    </td>
+{*конец блока выбранные ткани*}
 	{* Цена за единицу *}
 	<td class="price">
 		{($purchase->variant->price)|convert} {$currency->sign}

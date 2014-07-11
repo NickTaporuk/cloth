@@ -9,7 +9,7 @@
                      idtype: false,                        //id тип 0 - основной,1 - компаньён
                      idImageHref:false,                    //src <img>  основной
                      idImageHrefKompanion:false,           //src <img>  компаньён
-                     tkm:1,                                //
+                     tkm:1,                                //id cloth
                      requestUrl:"ajax/clothRequest.php",   // link ajax request
                      no_data:'По вашему запросу нет подходящей ткани для уточнения вашего запроса позвоните нашему менеджеру по тел. (123) 456 789 0<br/> и мы постраемся вам помочь<br/> или можете выбрать ткань из другой ценовой группы или материала :'
     };
@@ -44,7 +44,6 @@
 
     //вcтавить изображение в кнопку основная или компаньён,закрыть окно
     jQuery('.select-textile-button ').on('click',function(){
-        console.log(jQuery('#textile-pic-preview>img').attr('idi'));
         var idMapToImg = jQuery('#textile-pic-preview>img').attr('idi');
         addImgByType(idMapToImg);
         jQuery('.popup').fadeOut(500);
@@ -60,7 +59,6 @@
         global.idp = price.attr('idp');
         getHtml();
 //        console.log(global);
-//        console.log('кнопки ценового диапазона');
         return false;
     });
     //кнопки типа ткани
@@ -122,6 +120,34 @@
                             jQuery('#textile-list-content').html(data);
                         }
                         else jQuery('#textile-list-content').html('<div class="no-data">'+global.no_data+'</div>');
+                        },
+                        error: function (XHR, textStatus, errorThrown) {
+                            var ret, err;
+                            if (XHR.readyState === 0 || XHR.status === 0) {
+                                return;
+                            }
+                            switch (textStatus) {
+                                case 'timeout':
+                                    err = 'The request timed out!';
+                                    break;
+                                case 'parsererror':
+                                    err = 'Parser error!';
+                                    break;
+                                case 'error':
+                                    if (XHR.status && !/^\s*$/.test(XHR.status)) {
+                                        err = 'Error ' + XHR.status;
+                                    } else {
+                                        err = 'Error';
+                                    }
+                                    if (XHR.responseText && !/^\s*$/.test(XHR.responseText)) {
+                                        err = err + ': ' + XHR.responseText;
+                                    }
+                                    break;
+                            }
+
+                            if (err) {
+                                alert(err);
+                            }
                         }
                     });
     }

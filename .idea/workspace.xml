@@ -26,7 +26,7 @@
       <file leaf-file-name="cloth_init.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/cloth/js/cloth/cloth_init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="67" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.0" vertical-offset="1940" max-vertical-offset="2808">
+            <state line="99" column="53" selection-start="3937" selection-end="3937" vertical-scroll-proportion="0.0" vertical-offset="1548" max-vertical-offset="3276">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="product.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design/default/html/product.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="250" column="0" selection-start="7832" selection-end="7832" vertical-scroll-proportion="0.0" vertical-offset="3848" max-vertical-offset="4716">
+            <state line="246" column="0" selection-start="7743" selection-end="7922" vertical-scroll-proportion="0.0" vertical-offset="3851" max-vertical-offset="4716">
               <folding />
             </state>
           </provider>
@@ -50,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cart.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax/cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1176" selection-end="1270" vertical-scroll-proportion="0.6112412" vertical-offset="0" max-vertical-offset="854">
+            <state line="28" column="136" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloth.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/cloth/css/cloth.css">
+      <file leaf-file-name="cart.tpl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design/default/html/cart.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="8" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.0" vertical-offset="2826" max-vertical-offset="5292">
+            <state line="61" column="53" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.8115607" vertical-offset="396" max-vertical-offset="5022">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="Cart.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/Cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="52" selection-start="4280" selection-end="4280" vertical-scroll-proportion="-17.333334" vertical-offset="2412" max-vertical-offset="3816">
+            <state line="24" column="35" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="3942">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="CartView.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/CartView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="8" selection-start="3865" selection-end="3865" vertical-scroll-proportion="-29.814816" vertical-offset="1211" max-vertical-offset="3528">
+            <state line="62" column="8" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="3780">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="ajax_cart.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design/default/js/ajax_cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="47" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1656">
+            <state line="21" column="23" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
               <folding />
             </state>
           </provider>
@@ -140,17 +140,18 @@
         <option value="$PROJECT_DIR$/modules/cloth/model/ClothModel.php" />
         <option value="$PROJECT_DIR$/api/Cloth.php" />
         <option value="$PROJECT_DIR$/api/Categories.php" />
-        <option value="$PROJECT_DIR$/modules/cloth/js/cloth/cloth_init.js" />
         <option value="$PROJECT_DIR$/view/ProductView.php" />
         <option value="$PROJECT_DIR$/modules/cloth/view/ClothView.php" />
         <option value="$PROJECT_DIR$/design/default/html/product.tpl" />
         <option value="$PROJECT_DIR$/ajax/clothRequest.php" />
         <option value="$PROJECT_DIR$/modules/cloth/css/cloth.css" />
-        <option value="$PROJECT_DIR$/view/CartView.php" />
         <option value="$PROJECT_DIR$/js/ajax-cart.js" />
-        <option value="$PROJECT_DIR$/design/default/js/ajax_cart.js" />
         <option value="$PROJECT_DIR$/api/Cart.php" />
+        <option value="$PROJECT_DIR$/modules/cloth/js/cloth/cloth_init.js" />
+        <option value="$PROJECT_DIR$/view/CartView.php" />
+        <option value="$PROJECT_DIR$/design/default/js/ajax_cart.js" />
         <option value="$PROJECT_DIR$/ajax/cart.php" />
+        <option value="$PROJECT_DIR$/design/default/html/cart.tpl" />
       </list>
     </option>
   </component>
@@ -186,7 +187,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,6 +216,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,36 +341,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpla" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,7 +398,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38794023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25773746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -409,16 +450,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simpla/design/html/blog.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="7" selection-start="2729" selection-end="2739" vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="2754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="5598" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simpla/ProductAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="7110" />
@@ -442,11 +473,6 @@
     <entry file="file://$PROJECT_DIR$/design/default/html/blog.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/default/html/cart.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4356" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jsPanel/jsPanel.css">
@@ -517,11 +543,6 @@
     <entry file="file://$PROJECT_DIR$/simpla/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="881" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simpla/UsersAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="212" selection-end="218" vertical-scroll-proportion="0.14754099" vertical-offset="0" max-vertical-offset="1692" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/Money.php">
@@ -601,9 +622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/cloth/view/ClothView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="47" selection-start="4578" selection-end="4578" vertical-scroll-proportion="0.0" vertical-offset="2034" max-vertical-offset="4320">
-          <folding />
-        </state>
+        <state line="113" column="47" selection-start="4578" selection-end="4578" vertical-scroll-proportion="0.0" vertical-offset="2034" max-vertical-offset="4320" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/clothRequest.php">
@@ -613,28 +632,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/cloth/css/cloth.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="8" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.0" vertical-offset="2826" max-vertical-offset="5292">
-          <folding />
-        </state>
+        <state line="157" column="8" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.0" vertical-offset="2826" max-vertical-offset="5292" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design/default/js/jquery-ui.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/default/html/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="0" selection-start="7832" selection-end="7832" vertical-scroll-proportion="0.0" vertical-offset="3848" max-vertical-offset="4716">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/default/html/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="55" selection-start="1666" selection-end="1670" vertical-scroll-proportion="0.0" vertical-offset="451" max-vertical-offset="5004">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ajax-cart.js">
@@ -649,37 +652,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/default/js/ajax_cart.js">
+    <entry file="file://$PROJECT_DIR$/compiled/default/6d6eda99f05e12f1389ad1960316993eb7800e36.file.register.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="47" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1656">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="27" selection-start="1340" selection-end="1341" vertical-scroll-proportion="0.94173604" vertical-offset="0" max-vertical-offset="5436" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpla/UsersAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="212" selection-end="218" vertical-scroll-proportion="0.14754099" vertical-offset="0" max-vertical-offset="1692" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="35" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="3942">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/CartView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="8" selection-start="3865" selection-end="3865" vertical-scroll-proportion="-29.814816" vertical-offset="1211" max-vertical-offset="3528">
+        <state line="62" column="8" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="3780">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/Cart.php">
+    <entry file="file://$PROJECT_DIR$/design/default/html/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="52" selection-start="4280" selection-end="4280" vertical-scroll-proportion="-17.333334" vertical-offset="2412" max-vertical-offset="3816">
+        <state line="40" column="55" selection-start="1666" selection-end="1670" vertical-scroll-proportion="0.0" vertical-offset="451" max-vertical-offset="5004">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/default/html/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="246" column="0" selection-start="7743" selection-end="7922" vertical-scroll-proportion="0.0" vertical-offset="3851" max-vertical-offset="4716">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/cloth/js/cloth/cloth_init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="67" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.0" vertical-offset="1940" max-vertical-offset="2808">
+        <state line="99" column="53" selection-start="3937" selection-end="3937" vertical-scroll-proportion="0.0" vertical-offset="1548" max-vertical-offset="3276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/default/js/ajax_cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1176" selection-end="1270" vertical-scroll-proportion="0.6112412" vertical-offset="0" max-vertical-offset="854">
+        <state line="28" column="136" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/default/html/cart.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="53" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.8115607" vertical-offset="396" max-vertical-offset="5022">
           <folding />
         </state>
       </provider>

@@ -3,19 +3,23 @@
 // добавляем в request
 
 /**
- * idi_primary      - основная ткань
- * idi_secondary    - ткань компаньён
+ * @idi_primary      - основная ткань
+ * @idi_secondary    - ткань компаньён
+ * @src_primary      - ссылка на картинку основная ткань
+ * @src_secondary    - ссылка на картинку компаньён
  */
 (function (window, document, $, undefined) {
-    var cloth = {idi_primary:0,idi_secondary:0};
+    var cloth = {idi_primary:0,idi_secondary:0,src_primary:'',src_secondary:''};
 
 // Аяксовая корзина
 $('form.variants').live('submit', function(e) {
     e.preventDefault();
     //основная
     cloth.idi_primary   = jQuery('#primary-textile-selector > a > .primary-img').attr('idi');
+    cloth.src_primary   = jQuery('#primary-textile-selector > a > .primary-img').attr('src');
     //компаньён
     cloth.idi_secondary = jQuery('#secondary-textile-selector > a > .primary-img').attr('idi');
+    cloth.src_secondary = jQuery('#secondary-textile-selector > a > .primary-img').attr('src');
     //чтоб а всех версиях php работало корректно )
     var jsonCloth = JSON.stringify(cloth);
     console.log('cloth :'+cloth.idi_primary +'--->'+cloth.idi_secondary);

@@ -23,10 +23,13 @@ $simpla->design->assign('cart', $cart);
 if(isset($_SESSION['shopping_cart'][$_GET['variant']])){
     $data = json_decode($_GET['cloth']);
     $primary = (isset($data->idi_primary))?$data->idi_primary:0;
+    $primary_img = (isset($data->src_primary))?$data->src_primary:0;
     $secondary = (isset($data->idi_secondary))?$data->idi_secondary:0;
-    $_SESSION['cloth'][] = array($_GET['variant']=>array('idi_primary'=>$primary,'idi_secondary'=>$secondary));
+    $secondary_img = (isset($data->src_secondary))?$data->src_secondary:0;
+    $_SESSION['cloth'][] = array($_GET['variant']=>array('idi_primary'=>$primary,'idi_secondary'=>$secondary,'src_primary'=>$primary_img,'src_secondary'=>$secondary_img));
 //    print_r($_GET);
 }
+
 //print('<pre>');
 //print_r($_SESSION);
 //print_r($_GET);

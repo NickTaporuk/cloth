@@ -170,12 +170,16 @@ class CartView extends View
 		// Способы доставки
 		$deliveries = $this->delivery->get_deliveries(array('enabled'=>1));
 		$this->design->assign('deliveries', $deliveries);
-		
+		//данные из сессии
+        if(isset($_SESSION['cloth']) and !empty($_SESSION['cloth'])){
+            $this->design->assign('cloth', $_SESSION['cloth']);
+        }
 		// Данные пользователя
 		if($this->user)
 		{
-                $last_order = $this->orders->get_orders(array('user_id'=>$this->user->id, 'limit'=>1));
-			$last_order = reset($last_order);
+            $last_order = $this->orders->get_orders(array('user_id'=>$this->user->id, 'limit'=>1));
+			var_dump($last_order);
+            $last_order = reset($last_order);
 			if($last_order)
 			{
 				$this->design->assign('name', $last_order->name);
