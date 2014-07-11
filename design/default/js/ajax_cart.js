@@ -9,7 +9,7 @@
  * @src_secondary    - ссылка на картинку компаньён
  */
 (function (window, document, $, undefined) {
-    var cloth = {idi_primary:0,idi_secondary:0,src_primary:'',src_secondary:''};
+    var cloth = {idi_primary:0,idi_secondary:0,src_primary:'/modules/cloth/img/cloth/no-image.jpg',src_secondary:'/modules/cloth/img/cloth/no-image.jpg'};
 
 // Аяксовая корзина
 $('form.variants').live('submit', function(e) {

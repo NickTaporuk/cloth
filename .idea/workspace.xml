@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.tpl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cart.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design/default/html/cart.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="53" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.8115607" vertical-offset="396" max-vertical-offset="5022">
+            <state line="60" column="41" selection-start="1777" selection-end="1777" vertical-scroll-proportion="-20.0" vertical-offset="540" max-vertical-offset="5058">
               <folding />
             </state>
           </provider>
@@ -71,16 +71,16 @@
       <file leaf-file-name="Cart.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/Cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="3942">
+            <state line="24" column="35" selection-start="314" selection-end="314" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="3816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartView.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CartView.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/CartView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="8" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="3780">
+            <state line="169" column="28" selection-start="4943" selection-end="4943" vertical-scroll-proportion="0.63981044" vertical-offset="2322" max-vertical-offset="3618">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="Orders.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/Orders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="11" selection-start="2388" selection-end="2403" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="9648">
+            <state line="337" column="33" selection-start="10207" selection-end="10216" vertical-scroll-proportion="-1.5185186" vertical-offset="5899" max-vertical-offset="9522">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="ajax_cart.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design/default/js/ajax_cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
+            <state line="11" column="151" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="1728">
               <folding />
             </state>
           </provider>
@@ -148,10 +148,10 @@
         <option value="$PROJECT_DIR$/js/ajax-cart.js" />
         <option value="$PROJECT_DIR$/api/Cart.php" />
         <option value="$PROJECT_DIR$/modules/cloth/js/cloth/cloth_init.js" />
-        <option value="$PROJECT_DIR$/view/CartView.php" />
-        <option value="$PROJECT_DIR$/design/default/js/ajax_cart.js" />
         <option value="$PROJECT_DIR$/ajax/cart.php" />
         <option value="$PROJECT_DIR$/design/default/html/cart.tpl" />
+        <option value="$PROJECT_DIR$/design/default/js/ajax_cart.js" />
+        <option value="$PROJECT_DIR$/view/CartView.php" />
       </list>
     </option>
   </component>
@@ -341,6 +341,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -447,19 +461,11 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simpla/ProductAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="7110" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/default/html/main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.93317974" vertical-offset="810" max-vertical-offset="3456" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simpla/design/html/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="57" selection-start="653" selection-end="653" vertical-scroll-proportion="0.24884793" vertical-offset="0" max-vertical-offset="4752" />
@@ -645,13 +651,6 @@
         <state line="0" column="28" selection-start="0" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/Orders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="11" selection-start="2388" selection-end="2403" vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="9648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compiled/default/6d6eda99f05e12f1389ad1960316993eb7800e36.file.register.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386" />
@@ -659,26 +658,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/View.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="27" selection-start="1340" selection-end="1341" vertical-scroll-proportion="0.94173604" vertical-offset="0" max-vertical-offset="5436" />
+        <state line="53" column="27" selection-start="1340" selection-end="1341" vertical-scroll-proportion="0.94173604" vertical-offset="0" max-vertical-offset="5436">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simpla/UsersAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="25" selection-start="212" selection-end="218" vertical-scroll-proportion="0.14754099" vertical-offset="0" max-vertical-offset="1692" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="3942">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/CartView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="8" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="3780">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design/default/html/index.tpl">
@@ -695,20 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/cloth/js/cloth/cloth_init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="53" selection-start="3937" selection-end="3937" vertical-scroll-proportion="0.0" vertical-offset="1548" max-vertical-offset="3276">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/default/js/ajax_cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/cart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="136" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="792">
@@ -718,7 +691,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/design/default/html/cart.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="53" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.8115607" vertical-offset="396" max-vertical-offset="5022">
+        <state line="60" column="41" selection-start="1777" selection-end="1777" vertical-scroll-proportion="-20.0" vertical-offset="540" max-vertical-offset="5058">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloth/js/cloth/cloth_init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="53" selection-start="3937" selection-end="3937" vertical-scroll-proportion="0.0" vertical-offset="1548" max-vertical-offset="3276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/default/js/ajax_cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="151" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="1728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="35" selection-start="314" selection-end="314" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="3816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/Orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="337" column="33" selection-start="10207" selection-end="10216" vertical-scroll-proportion="-1.5185186" vertical-offset="5899" max-vertical-offset="9522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpla/OrderAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.436385" vertical-offset="3731" max-vertical-offset="4626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpla/CouponAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.32786885" vertical-offset="280" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/CartView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="28" selection-start="4943" selection-end="4943" vertical-scroll-proportion="0.63981044" vertical-offset="2322" max-vertical-offset="3618">
           <folding />
         </state>
       </provider>

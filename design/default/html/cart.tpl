@@ -58,8 +58,10 @@
                     {if $key==$purchase->variant->id}
                         {$val.idi_primary}
                         {$val.idi_secondary}
-                        <img src="{$val.src_primary}" alt=""/>
-                        <img src="{$val.src_secondary}" alt=""/>
+                        <div class="img">
+                            <img src="{$val.src_primary}" alt=""/>
+                            <img src="{$val.src_secondary}" alt=""/>
+                        </div>
                     {/if}
                 {/foreach}
             {/foreach}
