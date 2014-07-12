@@ -287,3 +287,27 @@ element.style {
     width: 157px;
     height: 60px;
 }
+#main-textile-image {
+    height: 350px;
+    width: 300px;
+}
+#second-textile-image {
+    left: 0;
+    bottom: 50px;
+    padding: 1px;
+    background: #ffffff;
+    height: 150px;
+    position: relative;
+    top: -202px;
+    width: 150px;
+}
+#no-textile-image {
+    background: none repeat scroll 0 0 #ffffff;
+    bottom: 50px;
+    height: 150px;
+    left: 0;
+    padding: 1px;
+    position: relative;
+    top: 150px;
+    width: 150px;
+}
