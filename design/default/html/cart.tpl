@@ -35,7 +35,7 @@
 <table id="purchases">
 
 {foreach from=$cart->purchases item=purchase}
-    {$purchase->variant->id}
+    {*{$purchase->variant->id}*}
 <tr>
 	{* Изображение товара *}
 	<td class="image">
@@ -56,11 +56,16 @@
             {foreach $cloth as $k=>$next}
                 {foreach $next as $key=>$val}
                     {if $key==$purchase->variant->id}
-                        {$val.idi_primary}
-                        {$val.idi_secondary}
+                        {*{$val.idi_primary}*}
+                        {*{$val.idi_secondary}*}
                         <div class="img">
-                            <img src="{$val.src_primary}" alt=""/>
-                            <img src="{$val.src_secondary}" alt=""/>
+                            <input type="hidden" name="idi[{$key}][{$k}]" value="{$val.JSON_IDI}"/>
+                            {if $val.src_primary !='0'}
+                                <img src="{$val.src_primary}" alt=""/>
+                            {/if}
+                            {if $val.src_secondary!='0'}
+                                <img src="{$val.src_secondary}" alt=""/>
+                            {/if}
                         </div>
                     {/if}
                 {/foreach}

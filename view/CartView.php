@@ -42,7 +42,10 @@ class CartView extends View
     // Если нажали оформить заказ
     if(isset($_POST['checkout']))
     {
-        var_dump($_POST);exit;
+//        var_dump();
+//        var_dump($_POST);exit;
+        //$_POST['idi'] находиться вся инфрмация об тканях для заказа
+
     	$order = new stdClass;
     	$order->delivery_id = $this->request->post('delivery_id', 'integer');
     	$order->name        = $this->request->post('name');
@@ -91,7 +94,16 @@ class CartView extends View
 	    	// Добавляем заказ в базу
 	    	$order_id = $this->orders->add_order($order);
 	    	$_SESSION['order_id'] = $order_id;
-	    	
+	    	//добавляем данные в базу __order_cloth
+            if(isset($_POST['idi']) and !empty($_POST['idi'])){
+                foreach($_POST['idi'] as $key=>$val){
+                    foreach($val as $k =>$v){
+                        $this->cloth->m->insertOrdersCloth($order_id,$v,$key);
+//                        var_dump($_POST['idi']);
+                    }
+                }
+//
+            }
 	    	// Если использовали купон, увеличим количество его использований
 	    	if($cart->coupon)
 	    		$this->coupons->update_coupon($cart->coupon->id, array('usages'=>$cart->coupon->usages+1));
@@ -167,7 +179,7 @@ class CartView extends View
 	//////////////////////////////////////////
 	function fetch()
 	{
-        var_dump($_SESSION);
+//        var_dump($_SESSION);
 		// Способы доставки
 		$deliveries = $this->delivery->get_deliveries(array('enabled'=>1));
 		$this->design->assign('deliveries', $deliveries);
@@ -179,7 +191,7 @@ class CartView extends View
 		if($this->user)
 		{
             $last_order = $this->orders->get_orders(array('user_id'=>$this->user->id, 'limit'=>1));
-			var_dump($last_order);
+//			var_dump($last_order);
             $last_order = reset($last_order);
 			if($last_order)
 			{

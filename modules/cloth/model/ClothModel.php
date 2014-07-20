@@ -115,9 +115,17 @@ class ClothModel extends Simpla
         return $this->db->results();
 
     }
-
     /**
-     * для работы ассинхронным запросом
+     *
+     */
+    public function insertOrdersCloth($order,$jsonString,$product_id){
+//        var_dump($order.",".$jsonString.",".$product_id);
+        $sql = "INSERT INTO s_order_cloth(order_id,cloth_order,product_id) VALUES($order,'" .$jsonString."',".$product_id.")";
+        $this->db->query($sql);
+//        return $this->db->results();
+    }
+    /**
+     * для работы ассинхронным запросом тест
      */
     public function ajaxRequest()
     {

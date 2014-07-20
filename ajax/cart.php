@@ -26,8 +26,10 @@ if(isset($_SESSION['shopping_cart'][$_GET['variant']])){
     $primary_img = (isset($data->src_primary))?$data->src_primary:0;
     $secondary = (isset($data->idi_secondary))?$data->idi_secondary:0;
     $secondary_img = (isset($data->src_secondary))?$data->src_secondary:0;
-    $_SESSION['cloth'][] = array($_GET['variant']=>array('idi_primary'=>$primary,'idi_secondary'=>$secondary,'src_primary'=>$primary_img,'src_secondary'=>$secondary_img));
-//    print_r($_GET);
+    $_SESSION['cloth'][] = array($_GET['variant']=>array('idi_primary'=>$primary,'idi_secondary'=>$secondary,'src_primary'=>$primary_img,'src_secondary'=>$secondary_img,
+                                                            'JSON_IDI'=>(urlencode("idi_primary=$primary&idi_secondary=$secondary&src_primary=$primary_img&src_secondary=$secondary_img")))
+
+    );
 }
 
 //print('<pre>');

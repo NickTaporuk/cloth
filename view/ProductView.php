@@ -20,7 +20,7 @@ class ProductView extends View
 	function fetch()
 	{
 //отладка
-        print('product ::<pre>');
+//        print('product ::<pre>');
 //        var_dump($this->cloth->m->getAllTypeMaterial());
 //        var_dump($this->cloth->m->getAllPriceBind());
 //        var_dump($this->cloth->m->getAllCloth());
@@ -31,10 +31,10 @@ class ProductView extends View
         //взять название компаний и забрать
 //        print('<pre>');
 //        var_dump($this->cloth);
-        print_r($_SESSION);
-        print_r($_GET);
-        print_r($_POST);
-        print('</pre>');
+//        print_r($_SESSION);
+//        print_r($_GET);
+//        print_r($_POST);
+//        print('</pre>');
 
         $model['getAllTypeMaterial']    = $this->cloth->m->getAllTypeMaterial();
         $model['getAllPriceBind']       = $this->cloth->m->getAllPriceBind();

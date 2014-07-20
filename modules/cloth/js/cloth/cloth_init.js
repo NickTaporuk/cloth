@@ -13,7 +13,9 @@
                      requestUrl:"ajax/clothRequest.php",   // link ajax request
                      no_data:'По вашему запросу нет подходящей ткани для уточнения вашего запроса позвоните нашему менеджеру по тел. (123) 456 789 0<br/> и мы постраемся вам помочь<br/> или можете выбрать ткань из другой ценовой группы или материала :',
                      choice_primary:'Выбор основной ткани',
-                     choice_secondary:'Выбор ткани компаньён'
+                     choice_secondary:'Выбор ткани компаньён',
+                     idi_prim:0,
+                     idi_sec:0
     };
     //
     init();
@@ -27,7 +29,7 @@
     jQuery('#primary-textile-selector').on('click',function(){
         global.idtype = 0;
         init();
-        console.log(global);
+        //console.log(global);
         jQuery('.popup').fadeIn(500);
         return false;
     });
@@ -36,21 +38,14 @@
     jQuery('#secondary-textile-selector').on('click',function(){
         global.idtype = 1;
         init();
-        console.log(global);
+        //console.log(global);
         jQuery('.popup').fadeIn(500);
         return false;
     });
 
     //закрываем окно
     jQuery('#select-textile-block').live('click',function(){
-        console.log(global);
-/*        var img = jQuery('.textile-preview');
-        if(global.idtype === 0){
-            global.idImageHref = img.find('img').attr('src');
-        }
-        else if(global.idtype === 1){
-            global.idImageHrefKompanion = img.find('img').attr('src');
-        }*/
+        //console.log(global);
         jQuery('.popup').fadeOut(500);
 
         return false;
@@ -58,8 +53,10 @@
 
     //вcтавить изображение в кнопку основная или компаньён,закрыть окно
     jQuery('.select-textile-button ').on('click',function(){
-        var idMapToImg = jQuery('#textile-pic-preview>img').attr('idi');
-        addImgByType(idMapToImg);
+
+//        var idMapToImg = jQuery('#textile-pic-preview>img').attr('idi');
+//        console.log('idMapToImg :'+idMapToImg);
+        addImgByType();
         jQuery('.popup').fadeOut(500);
         jQuery('#textile-pic-preview').html('');
     });
@@ -103,13 +100,20 @@
 //        console.log(img.find('img').attr('src'));
         if(global.idtype === 0){
             global.idImageHref = img.find('img').attr('src');
+            global.idi_prim = img.attr('tkm');
+            console.log('img.attr prim :'+global.idi_prim);
+
         }
         else if(global.idtype === 1){
             global.idImageHrefKompanion = img.find('img').attr('src');
+            global.idi_sec = img.attr('tkm');
+            console.log('img.attr sec :'+global.idi_sec);
+
         }
+//        console.log('img.attr:'+img.attr('tkm'));
         global.tkm = img.attr('tkm');
         getHtml();
-        console.log(global);
+//        console.log(global);
         //
         insertPreviewImg();
 //        console.log('кнопки типа ткани');
@@ -205,26 +209,26 @@
                     });
     }
 
-    /*
+    /**
     *
     * */
-    function addImgByType(idMapToImg)
+    function addImgByType()
     {
-        console.log(global);
+        console.log('global.idi_prim:'+global.idi_prim+'---->'+'global.idi_sec:'+global.idi_sec);
         if(global.idImageHrefKompanion && global.idtype === 1){
                 if(jQuery('#secondary-textile-selector .primary-img').hasClass('active')){
                     jQuery('#secondary-textile-selector img').remove();
-                    jQuery('#secondary-textile-selector .help-text').after('<img class="primary-img active" idi="'+idMapToImg+'" src="'+global.idImageHrefKompanion+'" />');
+                    jQuery('#secondary-textile-selector .help-text').after('<img class="primary-img active" idi="'+global.idi_sec+'" src="'+global.idImageHrefKompanion+'" />');
                 }
-                else jQuery('#secondary-textile-selector .help-text').after('<img class="primary-img active" idi="'+idMapToImg+'"  src="'+global.idImageHrefKompanion+'" />');
+                else jQuery('#secondary-textile-selector .help-text').after('<img class="primary-img active" idi="'+global.idi_sec+'"  src="'+global.idImageHrefKompanion+'" />');
 
         }
         else if(global.idImageHref && global.idtype === 0){
                 if(jQuery('#primary-textile-selector .primary-img').hasClass('active')){
                     jQuery('#primary-textile-selector img').remove();
-                    jQuery('#primary-textile-selector .help-text').after('<img class="primary-img active" idi="'+idMapToImg+'"  src="'+global.idImageHref+'" />');
+                    jQuery('#primary-textile-selector .help-text').after('<img class="primary-img active" idi="'+global.idi_prim+'"  src="'+global.idImageHref+'" />');
                 }
-                else jQuery('#primary-textile-selector .help-text').after('<img class="primary-img active" idi="'+idMapToImg+'"  src="'+global.idImageHref+'" />');
+                else jQuery('#primary-textile-selector .help-text').after('<img class="primary-img active" idi="'+global.idi_prim+'"  src="'+global.idImageHref+'" />');
             }
         }
 
